@@ -16,6 +16,7 @@ query Header {
 
 export const FOOTER = `
   Footer {
+    copywrite
     navItems {
       link ${LINK_FIELDS({ disableAppearance: true })}
 		}
